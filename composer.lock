@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ae98af8f0ff3560529e8cf3f89537e3c",
+    "packages": [
+        {
+            "name": "kittinan/php-http",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kittinan/php-http.git",
+                "reference": "54c9946216f22443fe62df20b0b2589eff3177e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kittinan/php-http/zipball/54c9946216f22443fe62df20b0b2589eff3177e9",
+                "reference": "54c9946216f22443fe62df20b0b2589eff3177e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KS\\HTTP\\": "src/KS/HTTP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "php-http is a simple HTTP class with php5-curl",
+            "time": "2016-07-02T05:10:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
